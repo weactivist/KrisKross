@@ -1,7 +1,7 @@
 # KrisKross
 Useful when content is loaded after DOM is ready (like ads, AJAX, images) and pushes already rendered content around which prevents good readability.
 
-There is nothing more disturbing than having content loaded after DOM is ready which makes the page jump around which prevents readability. This happens when ads, images and other content is loaded after DOM. It is disturbing.
+There is nothing more disturbing than having content loaded after DOM is ready which makes the page jump around which prevents readability. This happens when ads, images and other content is loaded after DOM. This JS library creates a container with fixed sizes. Any content loaded within that container can take how much time it wants before completion. It won't affect the page.
 
 ## How to use
 This tiny JS library creates a custom HTML element ("kris-kross") with the following attributes:
