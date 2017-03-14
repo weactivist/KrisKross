@@ -13,13 +13,16 @@ This tiny JS library creates a custom HTML element ("kris-kross") with the follo
 
 ### Example
 
-Markup:
+**Markup:**
+
 `<kris-kross width="600" height="250"></kris-kross>`
 
-Markup with imaginary content:
+**Markup with imaginary content:**
+
 `<kris-kross width="600" height="250">
     <div class="banner">This is my imaginary banner which takes ~4 seconds to load. It is 600px wide and up to 250px in height.</div>
 </kris-kross>`
 
-Resize:
+**Resize:**
+
 document.getElementByTagName('kris-kross')[0].resize()
