@@ -14,6 +14,5 @@ class KrisKrossElement extends HTMLElement {
 
 		this.style.display = "inline-block";
 		this.style.textAlign = "center";
-		this.style.background = "#eee";
 	}
 }
