@@ -1,0 +1,27 @@
+{
+	"name": "kriskross",
+	"version": "1.0.0",
+	"description": "Useful when content is loaded after DOM is ready and pushes already rendered content around which prevents good readability.",
+	"main": "index.js",
+	"directories": {
+		"example": "example"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/weactivist/KrisKross.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/weactivist/KrisKross/issues"
+	},
+	"homepage": "https://github.com/weactivist/KrisKross#readme",
+	"dependencies": {
+		"gulp": "latest",
+		"gulp-concat": "latest",
+		"gulp-minify": "latest"
+	}
+}
