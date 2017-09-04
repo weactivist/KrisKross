@@ -13,7 +13,10 @@ let KrisKross = ( function() {
 
 	KrisKross.prototype = {
 		addPlaceholder: function( element ) {
-			if( element.hasAttribute( "width" ) ) {
+			if( element.hasAttribute( "responsive" ) ) {
+				element.style.width = "100%";
+			}
+			else if( element.hasAttribute( "width" ) ) {
 				element.style.width = element.getAttribute( "width" ) + "px";
 			}
 

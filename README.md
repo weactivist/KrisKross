@@ -7,6 +7,7 @@ There is nothing more disturbing than having content loaded after DOM is ready w
 This tiny JS library creates a custom HTML element ("kris-kross") with the following attributes:
 * width: Set the width of the container
 * height: Set the height of the container
+* responsive: Set dynamic width of the container. Width is ignored if this attribute is used.
 
 ## Methods
 * .resize(): Automatically resizes the container based on the content within it.
@@ -16,6 +17,8 @@ This tiny JS library creates a custom HTML element ("kris-kross") with the follo
 **Markup:**
 
 `<kris-kross width="600" height="250"></kris-kross>`
+
+`<kris-kross responsive height="250"></kris-kross>`
 
 **Markup with imaginary content:**
 
